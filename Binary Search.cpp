@@ -22,3 +22,5 @@ int main() {
   else cout << "YES" << '\n'; 
   return 0;
 }
+
+//Time Complexity - O(log n)
