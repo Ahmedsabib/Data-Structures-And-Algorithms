@@ -17,3 +17,5 @@ int main() {
   cout << fact(n) << '\n';
   return 0;
 }
+
+//Time Complexity - O(2^n)
