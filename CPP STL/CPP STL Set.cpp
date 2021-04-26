@@ -7,7 +7,7 @@ int main() {
 	std::set<int>S = {1, 2, 3, 4, 5, 6}; // every element is present with only one number of time and elements are sorted automatically
 
 	/**
-	* Looping Throug a Set
+	* Looping Through a Set
 	**/
 	for(auto it = S.begin(); it != S.end(); ++it){
 		std::cout << *it << ' ';
