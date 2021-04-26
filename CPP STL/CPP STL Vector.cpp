@@ -5,11 +5,12 @@ int main() {
 	ios_base::sync_with_stdio(false), cin.tie(nullptr);
 
 	std::vector<int> v{1, 2, 3, 4, 5};
+
 	/**
 	* std::vector<T,Allocator>:: at
 	**/
 	//output the element of the index of .at(index)
-	//if index is out of range then shows
+	//if index is out of range then shows out of range
 	std::cout << v.at(2) << '\n'; 
 
 	/**
