@@ -37,6 +37,7 @@ int main() {
 	* std::set<Key,Compare,Allocator>::erase
 	**/
 	//erase a specific element
+	S.erase(2);
 	for(auto x: S){
 		std::cout << x << ' ';
 	}
